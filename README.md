@@ -6,6 +6,8 @@ A simple VHDL roulette simulaiton, that is run on an Altera FPGA. The bet amount
 
 As the user wins or loses money, the bets will continue to be updated on the screen until the user has no money. In the current version of the program, you cannot add extra money to your account, and instead of the current money going to 0, it wraps around to a negative number.
 
+The top level entity is spinwheel.vhd.
+
 ## Game Description
 
 In our implementation, we will consider only three types of bets: (1) straight-up, (2) colour, and (3) dozen.
