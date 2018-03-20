@@ -1,5 +1,12 @@
 # FPGA-Roulette
 
+## Quick Information
+
+A simple VHDL roulette simulaiton, that is run on an Altera FPGA. The bet amount, colours, and numbers are all programmed on the FPGA's switches. The bet is then placed, with the users current money and bet displayed on the screen. The current money is displayed in base 10, but can also be displayed in hex. 
+
+As the user wins or loses money, the bets will continue to be updated on the screen until the user has no money. In the current version of the program, you cannot add extra money to your account, and instead of the current money going to 0, it wraps around to a negative number.
+
+## Game Description
 
 In our implementation, we will consider only three types of bets: (1) straight-up, (2) colour, and (3) dozen.
 In a straight-up bet, the player bets on a single number from 0 to 36. If that number is the result of the spin,
